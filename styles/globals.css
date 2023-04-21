@@ -22,3 +22,16 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2bc5b3;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+a:focus {
+  outline: none;
+}

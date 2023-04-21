@@ -17,6 +17,14 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import web7 from "../public/web7.png";
+import web8 from "../public/web8.png";
+import web9 from "../public/web9.png";
+import web10 from "../public/web10.png";
+import web11 from "../public/web11.png";
+import web12 from "../public/web12.png";
+import Skills from "./Skills";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -61,16 +69,29 @@ prototyping, and helping startups build their products, I am seeking internships
 apply my skills and continue learning.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillDribbbleCircle />
+              <a href="https://twitter.com/">
+                      <AiFillTwitterCircle />
+              </a>
+              <a href="https://www.linkedin.com/">
+                        <AiFillLinkedin />
+              </a>
+               <a href="https://dribbble.com/">
+                 <AiFillDribbbleCircle />
+                </a>
             </div>
+
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
         </div>
         </section>
-        <section>
+
+        {/* <section> */}
+          <Skills/>
+        {/* </section> */}
+        
+        {/* <section>
+
         <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -131,10 +152,10 @@ apply my skills and continue learning.
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="py-10">
         <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
@@ -144,13 +165,12 @@ apply my skills and continue learning.
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <a href="https://www.figma.com/file/ALP7eGsrRhGf6GbADcPhPO/NFT-Dashboard?node-id=0%3A1&t=iuuBQQLoyV7jIfun-1" target="blank">
+              <a href="https://www.figma.com/file/i9AghyHMNqxX43ZnzWKy2T/Moviex?node-id=0%3A1&t=bkMG0jqFTvRvyrgJ-1" target="blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -162,6 +182,7 @@ apply my skills and continue learning.
               </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/fdvyWSRRpeJjiP67HDeAR1/Streamify?node-id=32%3A2393&t=Md6OvY17CaNsVH3w-1" target="blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -169,8 +190,10 @@ apply my skills and continue learning.
                 layout="responsive"
                 src={web2}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/0vkXKWiqPy0fAhqnlVFg2r/movie-app?node-id=0%3A1&t=LnZpGLTOsT9pYc2G-1" target="blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -178,8 +201,10 @@ apply my skills and continue learning.
                 layout="responsive"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/ALP7eGsrRhGf6GbADcPhPO/NFT-Dashboard?node-id=0%3A1&t=bnGu6V94jnOGZL5l-1" target="blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -187,8 +212,10 @@ apply my skills and continue learning.
                 layout="responsive"
                 src={web4}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/e7s4IHjWhnepRn0oM4uSlt/Travel-App?node-id=0%3A1&t=43yVamHVH7fnrYsC-1" target="blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -197,8 +224,10 @@ apply my skills and continue learning.
                 src={web5}
                 
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/RNGa0jBFSc4OPxk2RK7fgf/Design?node-id=0%3A1&t=XqYXB7SJHn3xX0ac-1" target="blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -206,7 +235,75 @@ apply my skills and continue learning.
                 layout="responsive"
                 src={web6}
               />
+              </a>
             </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/KNE6iMCctrYoZIcAeDkIIr/DAY-16?node-id=1%3A2&t=fql3GNbu8vKMNsrx-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web7}
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/osHyjMq2dDkNhq2DQAdBSm/Game?node-id=202%3A810&t=T44BiPMvd4dMEd5q-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web8}
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/osHyjMq2dDkNhq2DQAdBSm/Game?node-id=202%3A810&t=T44BiPMvd4dMEd5q-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web9}
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/8Jjb4KSxM1x6C7283wa7cM/Interstellar?node-id=104%3A307&t=CIl7XOPAztjbiAwp-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web10}
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/keIC7ksXTzF3L0OWLaFEuW/XRAY?node-id=15%3A30&t=dX2BHNkMnHqjyIov-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web11}
+              />
+              </a>
+              </div>
+              <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/tI45OW3Akm9nN4xG9HslYL/TelphaTech?node-id=0%3A1&t=3QFyZ83yrmAxUXt1-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web12}
+              />
+              </a>
+              </div>
+              
             </div>
         </section>
         </main>
