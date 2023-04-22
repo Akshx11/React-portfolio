@@ -15,8 +15,10 @@ const Skills = () => {
           {/* <p className="text-xl tracking-widest uppercase text-[#5651e5]">
             Skills
           </p> */}
-                      <h3 className="text-3xl py-1 dark:text-white ">Skills</h3>
-          <h2 className="py-4">What I Can Do</h2>
+          <h3 className="text-3xl py-1 text-teal-600  dark:text-teal-400">
+            Skills
+          </h3>
+          <h2 className="py-4 dark:text-gray-200 ml-2">What I Can Do</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-6 shadow-xl  rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -24,7 +26,9 @@ const Skills = () => {
                   <Image src={html} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="items-center justify-center">
-                  <h3 className="font-semibold text-[20px]  dark:text-white ">HTML</h3>
+                  <h3 className="font-semibold text-[20px]  dark:text-white ">
+                    HTML
+                  </h3>
                 </div>
               </div>
             </div>
@@ -35,7 +39,9 @@ const Skills = () => {
                   <Image src={css} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="font-semibold text-[20px] dark:text-white">CSS</h3>
+                  <h3 className="font-semibold text-[20px] dark:text-white">
+                    CSS
+                  </h3>
                 </div>
               </div>
             </div>
@@ -45,7 +51,9 @@ const Skills = () => {
                   <Image src={javaScript} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="font-semibold text-[20px] dark:text-white">JavaScript</h3>
+                  <h3 className="font-semibold text-[15px] dark:text-white">
+                    JavaScript
+                  </h3>
                 </div>
               </div>
             </div>
@@ -65,7 +73,9 @@ const Skills = () => {
                   <Image src={figma} width="45px" height="64px" alt="/" />
                 </div>
                 <div className=" items-center justify-center">
-                  <h3 className="font-semibold text-[20px] dark:text-white">Figma</h3>
+                  <h3 className="font-semibold text-[20px] dark:text-white">
+                    Figma
+                  </h3>
                 </div>
               </div>
             </div>
@@ -75,7 +85,9 @@ const Skills = () => {
                   <Image src={canva} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="font-semibold dark:text-white  text-[20px]">Canva</h3>
+                  <h3 className="font-semibold dark:text-white  text-[20px]">
+                    Canva
+                  </h3>
                 </div>
               </div>
             </div>
