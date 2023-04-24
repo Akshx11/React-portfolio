@@ -16,6 +16,23 @@ import Link from "next/dist/client/link";
 import deved from "../public/dev-ed-wave.png";
 
 const Contact = () => {
+
+    const whatsapp = () => {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var message = document.getElementById("message").value;
+         
+        var url = "https://wa.me/9860644594?text="
+        +"*Name :* "+name+"%0a"
+        +"*Email :* "+email+"%0a"
+        +"*Phone :* "+phone+"%0a"
+        +"*Message :* "+message;
+         
+        window.open(url,'_blank').focus();
+        }
+
+
   return (
     <div id="contact" className="w-full ">
       <div className=" m-auto px-2 py-16 w-full ">
@@ -44,15 +61,15 @@ const Contact = () => {
                   and let us talk.
                 </p>
                 <div className="flex py-3">
-                  <div className=" rounded-2xl shadow-lg dark:text-gray-400 dark:border-gray-400 p-3 border border-black  text-xl cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className=" rounded-2xl shadow-lg dark:text-gray-400 dark:border-gray-400 p-3 border border-black  text-xl">
                     <MdEmail/>
                   </div>
                     <p className="text-center justify-between dark:text-gray-300 py-3 px-3">
-                     akshatatande80@gmail.com
+                    akshatatande80@gmail.com
                     </p>
                 </div>
                 <div className="flex ">
-                  <div className=" rounded-2xl shadow-lg dark:text-gray-400 dark:border-gray-400 p-3 border border-black  text-xl cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className=" rounded-2xl shadow-lg dark:text-gray-400 dark:border-gray-400 p-3 border border-black text-xl">
                     <MdLocationOn/>
                   </div>
                     <p className="text-center justify-between dark:text-gray-300 py-3 px-3">
@@ -73,13 +90,13 @@ const Contact = () => {
               </p>
               <div className="flex items-center justify-center gap-4 py-4">
                 <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                  <a href="https://twitter.com/">
+                  <a href="https://twitter.com/AkshataTande?t=lI22KjN-4XTnzgHn4-QpUQ&s=09">
                     <AiFillTwitterCircle />
                   </a>
-                  <a href="https://www.linkedin.com/">
+                  <a href="https://www.linkedin.com/in/akshatatande/">
                     <AiFillLinkedin />
                   </a>
-                  <a href="https://dribbble.com/">
+                  <a href="https://dribbble.com/akshatatande">
                     <AiFillDribbbleCircle />
                   </a>
                 </div>
@@ -125,7 +142,7 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 bg-teal-600 dark:bg-teal-500 text-white rounded-lg font-poppins font-bold text-lg mt-4">
+                <button onClick={whatsapp} className="w-full p-4 hover:bg-teal-800  bg-teal-600 dark:bg-teal-500 text-white rounded-lg font-poppins font-bold text-lg mt-4">
                   Send Message
                 </button>
               </form>

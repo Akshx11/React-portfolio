@@ -50,7 +50,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/drive/folders/1W5ksEfEwzbtgXSuIcgnqic9PPlckp4mF "target="blank"
+                  href="https://drive.google.com/file/d/1KxeWWSrRi9sq5MQoIeOsQbnKZVhGGrqe/view?usp=sharing" target="blank"
                 >
                   Resume
                 </a>
@@ -70,13 +70,13 @@ prototyping, and helping startups build their products, I am seeking internships
 apply my skills and continue learning.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/">
+              <a href="https://twitter.com/AkshataTande?t=lI22KjN-4XTnzgHn4-QpUQ&s=09">
                       <AiFillTwitterCircle />
               </a>
-              <a href="https://www.linkedin.com/">
+              <a href="https://www.linkedin.com/in/akshatatande/">
                         <AiFillLinkedin />
               </a>
-               <a href="https://dribbble.com/">
+               <a href="https://dribbble.com/akshatatande">
                  <AiFillDribbbleCircle />
                 </a>
             </div>
@@ -156,20 +156,13 @@ apply my skills and continue learning.
         </section> */}
         <section className="py-10">
         <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I`&apos`ve done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
+            <h3 className="text-3xl py-1 text-teal-600  dark:text-teal-400 ">Projects</h3>
+        
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
 
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 pt-5 pb-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <a href="https://www.figma.com/file/i9AghyHMNqxX43ZnzWKy2T/Moviex?node-id=0%3A1&t=bkMG0jqFTvRvyrgJ-1" target="blank">
               <Image
