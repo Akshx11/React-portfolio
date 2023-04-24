@@ -53,7 +53,7 @@ const Skills = () => {
                   <Image src={javaScript} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="font-semibold text-[15px] dark:text-white">
+                  <h3 className="font-semibold text-[20px] dark:text-white">
                     JavaScript
                   </h3>
                 </div>
