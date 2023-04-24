@@ -7,6 +7,7 @@ import css from "../public/css.png";
 import figma from "../public/figma.png";
 import javaScript from "../public/javascript.png";
 import canva from "../public/canva.png";
+import blender from "../public/blender2.png";
 
 const Skills = () => {
   return (
@@ -21,7 +22,7 @@ const Skills = () => {
           </h3>
           <h2 className="py-4 dark:text-gray-200 ml-2">What I Can Do</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 shadow-xl  rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={html} width="64px" height="64px" alt="/" />
@@ -34,7 +35,7 @@ const Skills = () => {
               </div>
             </div>
             {/* <div className="p-6 shadow-xl dark:border dark:border-gray-50  rounded-xl hover:scale-105 ease-in duration-300"> */}
-            <div className="p-6 shadow-xl  rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={css} width="64px" height="64px" alt="/" />
@@ -46,7 +47,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl  rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={javaScript} width="64px" height="64px" alt="/" />
@@ -58,17 +59,17 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={react} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="font-semibold dark:text-white">React</h3>
+                  <h3 className="font-semibold text-[20px] dark:text-white">React</h3>
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={figma} width="45px" height="64px" alt="/" />
@@ -80,7 +81,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={canva} width="64px" height="64px" alt="/" />
@@ -92,7 +93,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image src={design} width="64px" height="64px" alt="/" />
@@ -101,14 +102,14 @@ const Skills = () => {
                   <h3 className="font-semibold dark:text-white"></h3>
                 </div>
               </div>
-            </div>
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            </div> */}
+            <div className="p-6 shadow-xl dark:shadow-2xl dark:shadow-black rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={design} width="64px" height="64px" alt="/" />
+                  <Image src={blender} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="font-semibold dark:text-white">Canva</h3>
+                  <h3 className="font-semibold dark:text-white text-[20px]">Blender</h3>
                 </div>
               </div>
             </div>
