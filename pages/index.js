@@ -66,7 +66,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             As a third-year AI & Data Science student with experience in user-centered design principles, wireframing,
-prototyping, and helping startups build their products, I am seeking internships or entry-level positions to
+prototyping, and helping startups build their products, I am seeking internships to
 apply my skills and continue learning.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
