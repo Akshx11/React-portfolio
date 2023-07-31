@@ -297,6 +297,29 @@ apply my skills and continue learning.
               />
               </a>
               </div>
+                  <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/proto/WmnYekkJ6OWXbqWDgYdLMq/Shop?page-id=0%3A1&type=design&node-id=1-68&viewport=263%2C354%2C0.33&t=tnddiO9WsdWOxVo4-1&scaling=min-zoom&mode=design" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web13}
+              />
+              </a>
+              </div>
+                       <div className="basis-1/3 flex-1">
+              <a href="https://www.figma.com/file/eMac2R6ax1vdpcBbfM0Mdv/Medical-Dashboard?type=design&node-id=65%3A867&mode=design&t=sGzIIuRilozStVut-1" target="blank">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web14}
+              />
+              </a>
+              </div>
+                  
               
             </div>
         </section>
