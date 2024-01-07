@@ -70,8 +70,8 @@ prototyping, and helping startups build their products, I am seeking internships
 apply my skills and continue learning.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/AkshataTande?t=lI22KjN-4XTnzgHn4-QpUQ&s=09">
-                      <AiFillTwitterCircle />
+              <a href="https://www.behance.net/akshatatande11">
+                      <AiFillBehanceCircle />
               </a>
               <a href="https://www.linkedin.com/in/akshatatande/">
                         <AiFillLinkedin />
