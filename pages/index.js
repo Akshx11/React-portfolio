@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
-  AiFillTwitterCircle,
+  AiFillBehanceCircle,
   AiFillLinkedin,
   AiFillDribbbleCircle,
 } from "react-icons/ai";
